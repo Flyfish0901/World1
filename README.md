@@ -1,0 +1,1 @@
+# A DST server folder
