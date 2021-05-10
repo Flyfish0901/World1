@@ -873,3 +873,54 @@
 [14:30:06]: Received (KU_9oJuL_XI) from TokenPurpose
 [15:00:06]: [200] Account Communication Success (6)
 [15:00:06]: Received (KU_9oJuL_XI) from TokenPurpose
+[15:30:07]: [200] Account Communication Success (6)
+[15:30:07]: Received (KU_9oJuL_XI) from TokenPurpose
+[16:00:07]: [200] Account Communication Success (6)
+[16:00:07]: Received (KU_9oJuL_XI) from TokenPurpose
+[16:03:02]: [Shard] Secondary shar Caves(2144115170) connected: [LAN] 127.0.0.1
+[16:03:05]: [Shard] Secondary Caves(2144115170) ready!
+[16:03:05]: World 2144115170 is now connected	
+[16:03:05]: Validating portal[5] <-> 2144115170[5] (disabled)	
+[16:03:05]: Validating portal[9] <-> 2144115170[9] (disabled)	
+[16:03:05]: Validating portal[2] <-> 2144115170[2] (disabled)	
+[16:03:05]: Validating portal[1] <-> 2144115170[1] (disabled)	
+[16:03:05]: Validating portal[6] <-> 2144115170[6] (disabled)	
+[16:03:05]: Validating portal[3] <-> 2144115170[3] (disabled)	
+[16:03:05]: Validating portal[7] <-> 2144115170[7] (disabled)	
+[16:03:05]: Validating portal[4] <-> 2144115170[4] (disabled)	
+[16:03:05]: Validating portal[8] <-> 2144115170[8] (disabled)	
+[16:03:14]: Registering master server in Sing lobby
+[16:30:07]: [200] Account Communication Success (6)
+[16:30:07]: Received (KU_9oJuL_XI) from TokenPurpose
+[17:00:06]: [200] Account Communication Success (6)
+[17:00:06]: Received (KU_9oJuL_XI) from TokenPurpose
+[17:30:06]: [200] Account Communication Success (6)
+[17:30:06]: Received (KU_9oJuL_XI) from TokenPurpose
+[18:00:06]: [200] Account Communication Success (6)
+[18:00:06]: Received (KU_9oJuL_XI) from TokenPurpose
+[18:30:08]: [200] Account Communication Success (6)
+[18:30:08]: Received (KU_9oJuL_XI) from TokenPurpose
+[19:00:06]: [200] Account Communication Success (6)
+[19:00:06]: Received (KU_9oJuL_XI) from TokenPurpose
+[19:30:07]: [200] Account Communication Success (6)
+[19:30:07]: Received (KU_9oJuL_XI) from TokenPurpose
+[20:00:06]: [200] Account Communication Success (6)
+[20:00:06]: Received (KU_9oJuL_XI) from TokenPurpose
+[20:30:06]: [200] Account Communication Success (6)
+[20:30:06]: Received (KU_9oJuL_XI) from TokenPurpose
+[21:00:07]: [200] Account Communication Success (6)
+[21:00:07]: Received (KU_9oJuL_XI) from TokenPurpose
+[21:30:08]: [200] Account Communication Success (6)
+[21:30:08]: Received (KU_9oJuL_XI) from TokenPurpose
+[22:00:07]: [200] Account Communication Success (6)
+[22:00:07]: Received (KU_9oJuL_XI) from TokenPurpose
+[22:30:06]: [200] Account Communication Success (6)
+[22:30:06]: Received (KU_9oJuL_XI) from TokenPurpose
+[23:00:07]: [200] Account Communication Success (6)
+[23:00:07]: Received (KU_9oJuL_XI) from TokenPurpose
+[23:30:06]: [200] Account Communication Success (6)
+[23:30:06]: Received (KU_9oJuL_XI) from TokenPurpose
+[00:00:06]: [200] Account Communication Success (6)
+[00:00:06]: Received (KU_9oJuL_XI) from TokenPurpose
+[00:30:07]: [200] Account Communication Success (6)
+[00:30:07]: Received (KU_9oJuL_XI) from TokenPurpose
