@@ -60,8 +60,7 @@ KLEI     1 return {
     password="",
     privacy_type=0,
     pvp=false,
-    server_language="zh",
-    use_legacy_session_path=false 
+    server_language="zh" 
   },
   session_id="3F3958D64A2C8FDB",
   version=4,

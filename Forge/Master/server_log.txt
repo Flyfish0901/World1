@@ -1,0 +1,904 @@
+[00:00:00]: PersistRootStorage is now /home/ubuntu/dstsave//dst/Forge/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 464301
+[00:00:00]: Current time: Thu May 20 18:44:53 2021
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: VM-12-10-ubuntu
+[00:00:00]: Release(Kernel) Version: 4.15.0-142-generic
+[00:00:00]: Kernel Build Timestamp: #146-Ubuntu SMP Tue Apr 13 01:11:19 UTC 2021
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 464301 LINUX
+[00:00:00]: Build Date: 6944
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -console -persistent_storage_root /home/ubuntu/dstsave -conf_dir dst -cluster Forge -shard Master 
+[00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: THREAD - started 'GAClient' (4136614720)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10999, 27016)
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: ProfileIndex:4.09
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: OnLoadPermissionList: /home/ubuntu/dstsave//dst/Forge/blocklist.txt (Failure)
+[00:00:00]: OnLoadPermissionList: /home/ubuntu/dstsave//dst/Forge/adminlist.txt (Failure)
+[00:00:00]: OnLoadUserIdList: /home/ubuntu/dstsave//dst/Forge/whitelist.txt (Failure)
+[00:00:00]: Token retrieved from: /home/ubuntu/dstsave//dst/Forge/cluster_token.txt
+[00:00:00]: Token retrieved from: /home/ubuntu/dstsave//dst/Forge/cluster_token.txt
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: THREAD - started 'StreamInput' (4079975232)
+[00:00:00]: THREAD - started 'Ping Job Thread' (4082076480)
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:02]:   taskgrouplist:	default	联机版	
+[00:00:02]:   taskgrouplist:	classic	经典	
+[00:00:02]:   taskgrouplist:	cave_default	地下	
+[00:00:02]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:02]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:02]: running main.lua
+	
+[00:00:02]: loaded modindex	
+[00:00:02]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:02]: SUCCESS: Loaded modoverrides.lua	
+[00:00:02]: modoverrides.lua enabling workshop-1938752683	
+[00:00:02]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1938752683	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-1938752683_CLIENT	
+[00:00:02]: Loading mod: workshop-1938752683 (ReForged) Version:1.35	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-1938752683	
+[00:00:02]: Overriding mod workshop-1938752683's option DAMAGE_NUMBER_OPTIONS with value default	
+[00:00:02]: Overriding mod workshop-1938752683's option DEFAULT_FILTER with value 1	
+[00:00:02]: Overriding mod workshop-1938752683's option DISPLAY_COLORED_STATS with value true	
+[00:00:02]: Overriding mod workshop-1938752683's option MOB_DAMAGE_DEALT with value 1	
+[00:00:02]: Overriding mod workshop-1938752683's option LOBBY_GEAR with value true	
+[00:00:02]: Overriding mod workshop-1938752683's option DEBUG with value false	
+[00:00:02]: Overriding mod workshop-1938752683's option SERVER_LEVEL with value false	
+[00:00:02]: Overriding mod workshop-1938752683's option MOB_SPEED with value 1	
+[00:00:02]: Overriding mod workshop-1938752683's option MOB_DAMAGE_TAKEN with value 1	
+[00:00:02]: Overriding mod workshop-1938752683's option FORCE_START_DELAY_TIME with value 30	
+[00:00:02]: Overriding mod workshop-1938752683's option VOTE_KICK with value true	
+[00:00:02]: Overriding mod workshop-1938752683's option NO_SLEEP with value false	
+[00:00:02]: Overriding mod workshop-1938752683's option DAMAGE_NUMBER_HEIGHT with value 40	
+[00:00:02]: Overriding mod workshop-1938752683's option ADJUST_FILTER with value false	
+[00:00:02]: Overriding mod workshop-1938752683's option BATTLESTANDARD_EFFICIENCY with value 1	
+[00:00:02]: Overriding mod workshop-1938752683's option NO_REVIVES with value false	
+[00:00:02]: Overriding mod workshop-1938752683's option DAMAGE_NUMBER_PLAYERS with value false	
+[00:00:02]: Overriding mod workshop-1938752683's option Other with value 0	
+[00:00:02]: Overriding mod workshop-1938752683's option WAVESET with value swineclops	
+[00:00:02]: Overriding mod workshop-1938752683's option Gameplay Settings with value 0	
+[00:00:02]: Overriding mod workshop-1938752683's option Mutators with value 0	
+[00:00:02]: Overriding mod workshop-1938752683's option ONLY_SHOW_NONZERO_STATS with value true	
+[00:00:02]: Overriding mod workshop-1938752683's option DIFFICULTY with value normal	
+[00:00:02]: Overriding mod workshop-1938752683's option DEFAULT_ROTATION with value false	
+[00:00:02]: Overriding mod workshop-1938752683's option FRIENDLY_FIRE with value false	
+[00:00:02]: Overriding mod workshop-1938752683's option Vote with value 0	
+[00:00:02]: Overriding mod workshop-1938752683's option VOTE_FORCE_START with value true	
+[00:00:02]: Overriding mod workshop-1938752683's option VOTE_GAME_SETTINGS with value true	
+[00:00:02]: Overriding mod workshop-1938752683's option UNBREAKABLE_SHIELDS with value false	
+[00:00:02]: Overriding mod workshop-1938752683's option SANDBOX with value false	
+[00:00:02]: Overriding mod workshop-1938752683's option MOB_HEALTH with value 1	
+[00:00:02]: Overriding mod workshop-1938752683's option GIFT_SIDE with value right	
+[00:00:02]: Overriding mod workshop-1938752683's option Detailed Summary Options with value 0	
+[00:00:02]: Overriding mod workshop-1938752683's option Player HUD Options with value 0	
+[00:00:02]: Overriding mod workshop-1938752683's option Filter Options with value 0	
+[00:00:02]: Overriding mod workshop-1938752683's option MODE with value forge_s02	
+[00:00:02]: Overriding mod workshop-1938752683's option NO_HUD with value false	
+[00:00:02]: Overriding mod workshop-1938752683's option ROTATION with value 0	
+[00:00:02]: Overriding mod workshop-1938752683's option Lobby Options with value 0	
+[00:00:02]: Overriding mod workshop-1938752683's option GAMETYPE with value forge	
+[00:00:02]: Overriding mod workshop-1938752683's option Damage Number Options with value 0	
+[00:00:02]: Overriding mod workshop-1938752683's option DAMAGE_NUMBER_FONT_SIZE with value 32	
+[00:00:02]: Mod: workshop-1938752683 (ReForged)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-1938752683 (ReForged)	Loading modmain.lua	
+[00:00:02]: modimport: ../mods/workshop-1938752683/scripts/forge_strings.lua	
+[00:00:02]: modimport: ../mods/workshop-1938752683/scripts/forge_actions.lua	
+[00:00:02]: modimport: ../mods/workshop-1938752683/scripts/forge_main.lua	
+[00:00:02]: modimport: ../mods/workshop-1938752683/scripts/lobby_vote	
+[00:00:02]: modimport: ../mods/workshop-1938752683/scripts/forge_lobby	
+[00:00:02]: modimport: ../mods/workshop-1938752683/scripts/forge_combat	
+[00:00:02]: [AllAdminCommands]	
+[00:00:02]: modimport: ../mods/workshop-1938752683/scripts/difficulties.lua	
+[00:00:02]: modimport: ../mods/workshop-1938752683/scripts/wavesets.lua	
+[00:00:02]: modimport: ../mods/workshop-1938752683/scripts/modes.lua	
+[00:00:02]: modimport: ../mods/workshop-1938752683/scripts/gametypes.lua	
+[00:00:02]: modimport: ../mods/workshop-1938752683/scripts/mutators.lua	
+[00:00:02]: modimport: ../mods/workshop-1938752683/scripts/maps.lua	
+[00:00:02]: modimport: ../mods/workshop-1938752683/scripts/presets.lua	
+[00:00:02]: modimport: ../mods/workshop-1938752683/scripts/languages.lua	
+[00:00:02]: Translator:LoadPOFile - loading file: ../mods/workshop-1938752683/scripts/languages/chinese_s_reforged.po	
+[00:00:02]: Translator:LoadPOFile - loading file: ../mods/workshop-1938752683/scripts/languages/chinese_t_reforged.po	
+[00:00:03]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:04]: LOADING LUA SUCCESS
+[00:00:04]: PlayerDeaths could not load morgue	
+[00:00:04]: PlayerHistory could not load player_history	
+[00:00:04]: ServerPreferences could not load server_preferences	
+[00:00:04]: bloom_enabled	true	
+[00:00:04]: OnFilesLoaded()	
+[00:00:04]: OnUpdatePurchaseStateComplete	
+[00:00:04]: Klump load on boot started.	
+[00:00:04]: Klump files loaded: 	0	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	Registering prefabs	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forgedarts	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forgedarts	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forgedarts_projectile	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forgedarts_projectile_alt	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forginghammer	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forginghammer	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/riledlucy	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    riledlucy	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    lucyspin_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    splash_lavafx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/pithpike	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    pithpike	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/livingstaff	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    livingstaff	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/moltendarts	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    moltendarts	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    moltendarts_projectile	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    moltendarts_projectile_explosive	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/infernalstaff	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    infernalstaff	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/spiralspear	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    spiralspear	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/firebomb	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    firebomb	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    firebomb_projectile	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    firebomb_explosion	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    firebomb_proc_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    firebomb_sparks	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/blacksmithsedge	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    blacksmithsedge	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_books	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    petrifyingtome	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    bacontome	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    seedlingtome	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    flytraptome	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_armor	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    steadfastgrandarmor	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    whisperinggrandarmor	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    steadfastarmor	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    jaggedgrandarmor	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    splintmail	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    featheredtunic	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    reedtunic	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    silkengrandarmor	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    jaggedarmor	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_woodarmor	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    silkenarmor	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_hats	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    flowerheadband	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    wovengarland	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    barbedhelm	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    clairvoyantcrown	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    blossomedwreath	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    featheredwreath	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    resplendentnoxhelm	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    crystaltiara	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    noxhelm	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/gauntlet	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    gauntlet	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    gauntlet_ground_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    gauntlet_tail_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/teleport_staff	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    teleport_staff	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_trident	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_trident	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/lavaarena_seeddart	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    lavaarena_seeddarts	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    seed_projectile	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/lavaarena_seeddart2	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    lavaarena_seeddart2	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    snaptooth_seed_projectile	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/lavaarena_spatula	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    lavaarena_spatula	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/lavaarena_chefhat	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    lavaarena_chefhat	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_slingshot	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_slingshot	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_slingshot_projectile	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_slingshot_projectile_alt	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/spice_bomb	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    spice_bomb	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    spice_bomb_projectile	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    spice_buff_bomb_dmg_projectile	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    spice_buff_bomb_def_projectile	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    spice_buff_bomb_regen_projectile	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    spice_buff_bomb_speed_projectile	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    spice_explosion	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    spice_aoe	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/pitpig	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    pitpig	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/boarilla	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    boarilla	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/snortoise	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    snortoise	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/scorpeon	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    scorpeon	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/crocommander	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    crocommander	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    crocommander_rapidfire	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/boarrior	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    boarrior	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/rhinocebro	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    rhinocebro	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    rhinocebro2	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    rhinocebros	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    rhinocebro_buff_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/swineclops	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    swineclops	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    beetletaur_fossilized_break_fx_right	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    beetletaur_fossilized_break_fx_left	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    beetletaur_fossilized_break_fx_left_alt	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    beetletaur_fossilized_break_fx_alt	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/groundlifts	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    lavaarena_groundlift	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    lavaarena_groundliftembers	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    lavaarena_groundliftrocks	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    lavaarena_groundliftwarning	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    lavaarena_groundliftempty	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/battlestandards	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    battlestandard_damager	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    battlestandard_shield	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    battlestandard_heal	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    battlestandard_speed	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    battlestandard_damager_friendly	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    battlestandard_shield_friendly	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    battlestandard_heal_friendly	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    battlestandard_speed_friendly	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    shield_buff	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    damager_buff	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    healer_buff	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    speed_buff	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_traps	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_trap_spikes	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/golem	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    golem	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/babyspider	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    babyspider	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_abigail	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_abigail	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_abigail_flower	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_abigail_flower	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_bernie	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_bernie	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/mean_flytrap	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    mean_flytrap	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/adult_flytrap	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    adult_flytrap	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_cookpot	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_cookpot	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    food_projectile	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    spatula_food_buff	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/merm_guard	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    merm_guard	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_woby	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_woby	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_woby_power_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/buff_woby	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    buff_woby	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    buff_woby_head_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    buff_woby_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_fireball_projectile	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_fireball_projectile	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_blossom_projectile	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_gooball_projectile	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_fireball_hit_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_blossom_hit_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_gooball_hit_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_fireball_projectile_fast	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_fireball_projectile_big	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/infernalstaff_meteor	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    infernalstaff_meteor	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    infernalstaff_meteor_splash	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    infernalstaff_meteor_splashbase	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    infernalstaff_meteor_splashhit	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/healingcircle	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    healingcircle	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    healingcircle_bloom	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    healingcircle_center	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/healingcircle_regenbuff	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    healingcircle_regenbuff	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/scorpeon_projectile	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    scorpeon_projectile	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    scorpeon_splashfx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    scorpeon_tail	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/debuff_poison	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    debuff_poison	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    scorpeon_dot	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/debuff_pollen	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    debuff_pollen	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/debuff_wet	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    debuff_wet	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/debuff_haunt	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    debuff_haunt	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/debuff_armorbreak	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    debuff_armorbreak	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/debuff_mfd	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    debuff_mfd	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/debuff_fire	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    debuff_fire	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/debuff_spice	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    debuff_spice	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/ground_trail	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    ground_trail	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/poison_trail	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    poison_trail	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/passive_shadow_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    passive_shadow_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/damage_number	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    damage_number	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    bloom_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    pollen_cloud_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    amplify_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    spellmasteryorb	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    spellmasteryorbs	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    battlecry_fx_self	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    battlecry_fx_other	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forginghammer_crackle_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forginghammer_cracklebase_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_electrocute_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forgespear_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forgedebuff_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    weaponsparks_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    weaponsparks_piercing_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    weaponsparks_thrusting_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    weaponsparks_bouncing_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/lavaarena	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    lavaarena	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/geyser	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    geyser	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/fissures	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    fissure	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    lava_fissure	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/reforged_deps	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    reforged_deps	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_reticules	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_reticule	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_wortox_soul_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    forge_wortox_soul_in_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/fossilized_break_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	    fossilized_break_fx	
+[00:00:04]: Mod: workshop-1938752683 (ReForged)	  Registering default mod prefab	
+[00:00:06]: Could not preload undefined prefab (venus_stalk)
+[00:00:06]: Could not preload undefined prefab (vine)
+[00:00:06]: Could not preload undefined prefab (nectar_pod)
+[00:00:06]: Could not preload undefined prefab (pollen_debuff_fx)
+[00:00:06]: Could not preload undefined prefab (forgeelectricute_fx)
+[00:00:06]: Could not preload undefined prefab (vine)
+[00:00:06]: Could not preload undefined prefab (nectar_pod)
+[00:00:06]: 	Load FE	
+[00:00:06]: 	Load FE: done	
+[00:00:06]: Check for write access: TRUE
+[00:00:06]: Check for read access: TRUE
+[00:00:06]: Available disk space for save files: 49834 MB
+[00:00:06]: ModIndex: Load sequence finished successfully.	
+[00:00:06]: Reset() returning
+[00:00:06]: THREAD - started 'FilesExistAsyncThread' (4038585152)
+[00:00:06]: FilesExistAsyncThread started (17579 files)...
+[00:00:06]: ... FilesExistAsyncThread complete
+[00:00:08]: [200] Account Communication Success (6)
+[00:00:08]: Received (KU_9oJuL_XI) from TokenPurpose
+[00:00:08]: Starting Dedicated Server Game	
+[00:00:08]: Network tick rate: U=15(2), D=0
+[00:00:08]: About to start a server with the following settings:
+[00:00:08]:   Dedicated: true
+[00:00:08]:   Online: true
+[00:00:08]:   Passworded: false
+[00:00:08]:   ServerPort: 10999
+[00:00:08]:   SteamAuthPort: 8766
+[00:00:08]:   SteamMasterServerPort: 27016
+[00:00:08]:   ClanID: false
+[00:00:08]:   ClanOnly: false
+[00:00:08]:   ClanAdmin: false
+[00:00:08]:   LanOnly: false
+[00:00:08]:   FriendsOnly: false
+[00:00:08]:   EnableAutosaver: true
+[00:00:08]:   EncodeUserPath: true
+[00:00:08]:   PVP: false
+[00:00:08]:   MaxPlayers: 6
+[00:00:08]:   GameMode: lavaarena
+[00:00:08]:   OverridenDNS: 
+[00:00:08]:   PauseWhenEmpty: true
+[00:00:08]:   IdleTimeout: 1800s
+[00:00:08]:   VoteEnabled: true
+[00:00:08]:   InternetBroadcasting: true
+[00:00:08]:   Intent: madness
+[00:00:08]: [Shard] Shard server mode disabled by configuration file
+[00:00:08]: Could not load mod_config_data/modconfiguration_workshop-1938752683	
+[00:00:08]: Online Server Started on port: 10999
+[00:00:08]: SUCCESS: Loaded modoverrides.lua	
+[00:00:08]: Found a level data override file with these contents:	
+[00:00:08]: 	K: 	background_node_range	 V: 	table: 0xcb10280	
+[00:00:08]: 		K: 	1	 V: 	0	
+[00:00:08]: 		K: 	2	 V: 	1	
+[00:00:08]: 	K: 	desc	 V: 	你敢去熔炉里证明你自己的实力吗？	
+[00:00:08]: 	K: 	hideminimap	 V: 	false	
+[00:00:08]: 	K: 	id	 V: 	LAVAARENA	
+[00:00:08]: 	K: 	location	 V: 	lavaarena	
+[00:00:08]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:08]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:08]: 	K: 	name	 V: 	熔炉	
+[00:00:08]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:08]: 	K: 	override_level_string	 V: 	false	
+[00:00:08]: 	K: 	overrides	 V: 	table: 0xcb19850	
+[00:00:08]: 		K: 	autumn	 V: 	default	
+[00:00:08]: 		K: 	beefaloheat	 V: 	default	
+[00:00:08]: 		K: 	boons	 V: 	never	
+[00:00:08]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:08]: 		K: 	day	 V: 	default	
+[00:00:08]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:08]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:08]: 		K: 	keep_disconnected_tiles	 V: 	true	
+[00:00:08]: 		K: 	krampus	 V: 	default	
+[00:00:08]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:08]: 		K: 	no_joining_islands	 V: 	true	
+[00:00:08]: 		K: 	no_wormholes_to_disconnected_tiles	 V: 	true	
+[00:00:08]: 		K: 	poi	 V: 	never	
+[00:00:08]: 		K: 	protected	 V: 	never	
+[00:00:08]: 		K: 	roads	 V: 	never	
+[00:00:08]: 		K: 	season_start	 V: 	default	
+[00:00:08]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:08]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:08]: 		K: 	spawnprotection	 V: 	default	
+[00:00:08]: 		K: 	specialevent	 V: 	default	
+[00:00:08]: 		K: 	spring	 V: 	default	
+[00:00:08]: 		K: 	start_location	 V: 	lavaarena	
+[00:00:08]: 		K: 	summer	 V: 	default	
+[00:00:08]: 		K: 	task_set	 V: 	lavaarena_taskset	
+[00:00:08]: 		K: 	touchstone	 V: 	never	
+[00:00:08]: 		K: 	traps	 V: 	never	
+[00:00:08]: 		K: 	winter	 V: 	default	
+[00:00:08]: 		K: 	world_size	 V: 	small	
+[00:00:08]: 	K: 	required_prefabs	 V: 	table: 0xcb0e110	
+[00:00:08]: 		K: 	1	 V: 	lavaarena_portal	
+[00:00:08]: 	K: 	settings_desc	 V: 	你敢去熔炉里证明你自己的实力吗？	
+[00:00:08]: 	K: 	settings_id	 V: 	LAVAARENA	
+[00:00:08]: 	K: 	settings_name	 V: 	熔炉	
+[00:00:08]: 	K: 	substitutes	 V: 	table: 0xcb0e0b0	
+[00:00:08]: 	K: 	version	 V: 	2	
+[00:00:08]: 	K: 	worldgen_desc	 V: 	你敢去熔炉里证明你自己的实力吗？	
+[00:00:08]: 	K: 	worldgen_id	 V: 	LAVAARENA	
+[00:00:08]: 	K: 	worldgen_name	 V: 	熔炉	
+[00:00:08]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:08]: Overwriting savedata with level data file.	
+[00:00:08]: Not applying world gen overrides.	
+[00:00:08]: Collecting garbage...
+[00:00:08]: lua_gc took 0.05 seconds
+[00:00:08]: ~ShardLuaProxy()
+[00:00:08]: ~cEventLeaderboardProxy()
+[00:00:08]: ~ItemServerLuaProxy()
+[00:00:08]: ~InventoryLuaProxy()
+[00:00:08]: ~NetworkLuaProxy()
+[00:00:08]: ~SimLuaProxy()
+[00:00:08]: lua_close took 0.08 seconds
+[00:00:08]: ReleaseAll
+[00:00:08]: ReleaseAll Finished
+[00:00:08]: cGame::StartPlaying
+[00:00:08]: LOADING LUA
+[00:00:08]: DoLuaFile scripts/main.lua
+[00:00:08]: DoLuaFile loading buffer scripts/main.lua
+[00:00:08]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:10]:   taskgrouplist:	default	联机版	
+[00:00:10]:   taskgrouplist:	classic	经典	
+[00:00:10]:   taskgrouplist:	cave_default	地下	
+[00:00:10]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:10]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:10]: running main.lua
+	
+[00:00:10]: loaded modindex	
+[00:00:10]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:10]: SUCCESS: Loaded modoverrides.lua	
+[00:00:10]: modoverrides.lua enabling workshop-1938752683	
+[00:00:10]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1938752683	
+[00:00:10]: Could not load mod_config_data/modconfiguration_workshop-1938752683	
+[00:00:10]: Loading mod: workshop-1938752683 (ReForged) Version:1.35	
+[00:00:10]: applying configuration_options from modoverrides.lua to mod workshop-1938752683	
+[00:00:10]: Overriding mod workshop-1938752683's option DAMAGE_NUMBER_OPTIONS with value default	
+[00:00:10]: Overriding mod workshop-1938752683's option DEFAULT_FILTER with value 1	
+[00:00:10]: Overriding mod workshop-1938752683's option DISPLAY_COLORED_STATS with value true	
+[00:00:10]: Overriding mod workshop-1938752683's option MOB_DAMAGE_DEALT with value 1	
+[00:00:10]: Overriding mod workshop-1938752683's option LOBBY_GEAR with value true	
+[00:00:10]: Overriding mod workshop-1938752683's option DEBUG with value false	
+[00:00:10]: Overriding mod workshop-1938752683's option SERVER_LEVEL with value false	
+[00:00:10]: Overriding mod workshop-1938752683's option MOB_SPEED with value 1	
+[00:00:10]: Overriding mod workshop-1938752683's option MOB_DAMAGE_TAKEN with value 1	
+[00:00:10]: Overriding mod workshop-1938752683's option FORCE_START_DELAY_TIME with value 30	
+[00:00:10]: Overriding mod workshop-1938752683's option VOTE_KICK with value true	
+[00:00:10]: Overriding mod workshop-1938752683's option NO_SLEEP with value false	
+[00:00:10]: Overriding mod workshop-1938752683's option DAMAGE_NUMBER_HEIGHT with value 40	
+[00:00:10]: Overriding mod workshop-1938752683's option ADJUST_FILTER with value false	
+[00:00:10]: Overriding mod workshop-1938752683's option BATTLESTANDARD_EFFICIENCY with value 1	
+[00:00:10]: Overriding mod workshop-1938752683's option NO_REVIVES with value false	
+[00:00:10]: Overriding mod workshop-1938752683's option DAMAGE_NUMBER_PLAYERS with value false	
+[00:00:10]: Overriding mod workshop-1938752683's option Other with value 0	
+[00:00:10]: Overriding mod workshop-1938752683's option WAVESET with value swineclops	
+[00:00:10]: Overriding mod workshop-1938752683's option Gameplay Settings with value 0	
+[00:00:10]: Overriding mod workshop-1938752683's option Mutators with value 0	
+[00:00:10]: Overriding mod workshop-1938752683's option ONLY_SHOW_NONZERO_STATS with value true	
+[00:00:10]: Overriding mod workshop-1938752683's option DIFFICULTY with value normal	
+[00:00:10]: Overriding mod workshop-1938752683's option DEFAULT_ROTATION with value false	
+[00:00:10]: Overriding mod workshop-1938752683's option FRIENDLY_FIRE with value false	
+[00:00:10]: Overriding mod workshop-1938752683's option Vote with value 0	
+[00:00:10]: Overriding mod workshop-1938752683's option VOTE_FORCE_START with value true	
+[00:00:10]: Overriding mod workshop-1938752683's option VOTE_GAME_SETTINGS with value true	
+[00:00:10]: Overriding mod workshop-1938752683's option UNBREAKABLE_SHIELDS with value false	
+[00:00:10]: Overriding mod workshop-1938752683's option SANDBOX with value false	
+[00:00:10]: Overriding mod workshop-1938752683's option MOB_HEALTH with value 1	
+[00:00:10]: Overriding mod workshop-1938752683's option GIFT_SIDE with value right	
+[00:00:10]: Overriding mod workshop-1938752683's option Detailed Summary Options with value 0	
+[00:00:10]: Overriding mod workshop-1938752683's option Player HUD Options with value 0	
+[00:00:10]: Overriding mod workshop-1938752683's option Filter Options with value 0	
+[00:00:10]: Overriding mod workshop-1938752683's option MODE with value forge_s02	
+[00:00:10]: Overriding mod workshop-1938752683's option NO_HUD with value false	
+[00:00:10]: Overriding mod workshop-1938752683's option ROTATION with value 0	
+[00:00:10]: Overriding mod workshop-1938752683's option Lobby Options with value 0	
+[00:00:10]: Overriding mod workshop-1938752683's option GAMETYPE with value forge	
+[00:00:10]: Overriding mod workshop-1938752683's option Damage Number Options with value 0	
+[00:00:10]: Overriding mod workshop-1938752683's option DAMAGE_NUMBER_FONT_SIZE with value 32	
+[00:00:10]: Mod: workshop-1938752683 (ReForged)	Loading modworldgenmain.lua	
+[00:00:10]: Mod: workshop-1938752683 (ReForged)	Loading modmain.lua	
+[00:00:10]: modimport: ../mods/workshop-1938752683/scripts/forge_strings.lua	
+[00:00:10]: modimport: ../mods/workshop-1938752683/scripts/forge_actions.lua	
+[00:00:10]: modimport: ../mods/workshop-1938752683/scripts/forge_main.lua	
+[00:00:10]: modimport: ../mods/workshop-1938752683/scripts/lobby_vote	
+[00:00:10]: modimport: ../mods/workshop-1938752683/scripts/forge_lobby	
+[00:00:10]: modimport: ../mods/workshop-1938752683/scripts/forge_combat	
+[00:00:10]: [AllAdminCommands]	
+[00:00:10]: modimport: ../mods/workshop-1938752683/scripts/difficulties.lua	
+[00:00:10]: modimport: ../mods/workshop-1938752683/scripts/wavesets.lua	
+[00:00:10]: modimport: ../mods/workshop-1938752683/scripts/modes.lua	
+[00:00:10]: modimport: ../mods/workshop-1938752683/scripts/gametypes.lua	
+[00:00:10]: modimport: ../mods/workshop-1938752683/scripts/mutators.lua	
+[00:00:10]: modimport: ../mods/workshop-1938752683/scripts/maps.lua	
+[00:00:10]: modimport: ../mods/workshop-1938752683/scripts/presets.lua	
+[00:00:10]: modimport: ../mods/workshop-1938752683/scripts/languages.lua	
+[00:00:10]: Translator:LoadPOFile - loading file: ../mods/workshop-1938752683/scripts/languages/chinese_s_reforged.po	
+[00:00:10]: Translator:LoadPOFile - loading file: ../mods/workshop-1938752683/scripts/languages/chinese_t_reforged.po	
+[00:00:10]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:10]: LOADING LUA SUCCESS
+[00:00:10]: PlayerDeaths could not load morgue	
+[00:00:10]: PlayerHistory could not load player_history	
+[00:00:10]: ServerPreferences could not load server_preferences	
+[00:00:10]: bloom_enabled	true	
+[00:00:10]: OnFilesLoaded()	
+[00:00:10]: OnUpdatePurchaseStateComplete	
+[00:00:10]: Loading world: session/3F3958D64A2C8FDB/0000000002	
+[00:00:10]: Save file is at version 5.065	
+[00:00:10]: Klump load on boot started.	
+[00:00:10]: Klump files loaded: 	0	
+[00:00:10]: 	Unload FE	
+[00:00:10]: 	Unload FE done	
+[00:00:10]: Could not unload undefined prefab (venus_stalk)
+[00:00:10]: Could not unload undefined prefab (vine)
+[00:00:10]: Could not unload undefined prefab (nectar_pod)
+[00:00:10]: Could not unload undefined prefab (pollen_debuff_fx)
+[00:00:10]: Could not unload undefined prefab (forgeelectricute_fx)
+[00:00:10]: Could not unload undefined prefab (vine)
+[00:00:10]: Could not unload undefined prefab (nectar_pod)
+[00:00:10]: Could not unload undefined prefab (ocean_splash_med1)
+[00:00:10]: Could not unload undefined prefab (ocean_splash_med1)
+[00:00:10]: Could not unload undefined prefab (oceanfishinghook_ripple)
+[00:00:10]: Could not unload undefined prefab (ocean_splash_med1)
+[00:00:10]: Could not unload undefined prefab (splash_ocean)
+[00:00:10]: Could not unload undefined prefab (oceanfishinghook_ripple)
+[00:00:10]: Could not unload undefined prefab (ocean_splash_med1)
+[00:00:10]: Could not unload undefined prefab (splash_ocean)
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	Registering prefabs	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forgedarts	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forgedarts	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forgedarts_projectile	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forgedarts_projectile_alt	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forginghammer	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forginghammer	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/riledlucy	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    riledlucy	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    lucyspin_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    splash_lavafx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/pithpike	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    pithpike	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/livingstaff	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    livingstaff	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/moltendarts	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    moltendarts	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    moltendarts_projectile	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    moltendarts_projectile_explosive	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/infernalstaff	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    infernalstaff	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/spiralspear	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    spiralspear	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/firebomb	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    firebomb	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    firebomb_projectile	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    firebomb_explosion	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    firebomb_proc_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    firebomb_sparks	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/blacksmithsedge	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    blacksmithsedge	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_books	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    petrifyingtome	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    bacontome	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    seedlingtome	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    flytraptome	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_armor	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    steadfastgrandarmor	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    whisperinggrandarmor	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    steadfastarmor	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    jaggedgrandarmor	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    splintmail	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    featheredtunic	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    reedtunic	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    silkengrandarmor	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    jaggedarmor	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_woodarmor	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    silkenarmor	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_hats	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    flowerheadband	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    wovengarland	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    barbedhelm	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    clairvoyantcrown	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    blossomedwreath	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    featheredwreath	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    resplendentnoxhelm	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    crystaltiara	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    noxhelm	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/gauntlet	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    gauntlet	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    gauntlet_ground_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    gauntlet_tail_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/teleport_staff	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    teleport_staff	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_trident	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_trident	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/lavaarena_seeddart	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    lavaarena_seeddarts	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    seed_projectile	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/lavaarena_seeddart2	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    lavaarena_seeddart2	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    snaptooth_seed_projectile	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/lavaarena_spatula	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    lavaarena_spatula	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/lavaarena_chefhat	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    lavaarena_chefhat	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_slingshot	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_slingshot	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_slingshot_projectile	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_slingshot_projectile_alt	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/spice_bomb	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    spice_bomb	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    spice_bomb_projectile	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    spice_buff_bomb_dmg_projectile	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    spice_buff_bomb_def_projectile	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    spice_buff_bomb_regen_projectile	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    spice_buff_bomb_speed_projectile	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    spice_explosion	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    spice_aoe	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/pitpig	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    pitpig	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/boarilla	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    boarilla	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/snortoise	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    snortoise	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/scorpeon	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    scorpeon	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/crocommander	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    crocommander	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    crocommander_rapidfire	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/boarrior	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    boarrior	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/rhinocebro	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    rhinocebro	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    rhinocebro2	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    rhinocebros	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    rhinocebro_buff_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/swineclops	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    swineclops	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    beetletaur_fossilized_break_fx_right	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    beetletaur_fossilized_break_fx_left	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    beetletaur_fossilized_break_fx_left_alt	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    beetletaur_fossilized_break_fx_alt	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/groundlifts	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    lavaarena_groundlift	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    lavaarena_groundliftembers	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    lavaarena_groundliftrocks	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    lavaarena_groundliftwarning	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    lavaarena_groundliftempty	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/battlestandards	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    battlestandard_damager	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    battlestandard_shield	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    battlestandard_heal	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    battlestandard_speed	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    battlestandard_damager_friendly	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    battlestandard_shield_friendly	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    battlestandard_heal_friendly	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    battlestandard_speed_friendly	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    shield_buff	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    damager_buff	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    healer_buff	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    speed_buff	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_traps	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_trap_spikes	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/golem	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    golem	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/babyspider	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    babyspider	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_abigail	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_abigail	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_abigail_flower	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_abigail_flower	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_bernie	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_bernie	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/mean_flytrap	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    mean_flytrap	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/adult_flytrap	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    adult_flytrap	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_cookpot	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_cookpot	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    food_projectile	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    spatula_food_buff	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/merm_guard	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    merm_guard	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_woby	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_woby	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_woby_power_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/buff_woby	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    buff_woby	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    buff_woby_head_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    buff_woby_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_fireball_projectile	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_fireball_projectile	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_blossom_projectile	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_gooball_projectile	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_fireball_hit_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_blossom_hit_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_gooball_hit_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_fireball_projectile_fast	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_fireball_projectile_big	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/infernalstaff_meteor	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    infernalstaff_meteor	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    infernalstaff_meteor_splash	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    infernalstaff_meteor_splashbase	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    infernalstaff_meteor_splashhit	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/healingcircle	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    healingcircle	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    healingcircle_bloom	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    healingcircle_center	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/healingcircle_regenbuff	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    healingcircle_regenbuff	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/scorpeon_projectile	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    scorpeon_projectile	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    scorpeon_splashfx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    scorpeon_tail	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/debuff_poison	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    debuff_poison	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    scorpeon_dot	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/debuff_pollen	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    debuff_pollen	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/debuff_wet	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    debuff_wet	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/debuff_haunt	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    debuff_haunt	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/debuff_armorbreak	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    debuff_armorbreak	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/debuff_mfd	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    debuff_mfd	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/debuff_fire	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    debuff_fire	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/debuff_spice	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    debuff_spice	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/ground_trail	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    ground_trail	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/poison_trail	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    poison_trail	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/passive_shadow_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    passive_shadow_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/damage_number	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    damage_number	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    bloom_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    pollen_cloud_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    amplify_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    spellmasteryorb	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    spellmasteryorbs	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    battlecry_fx_self	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    battlecry_fx_other	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forginghammer_crackle_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forginghammer_cracklebase_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_electrocute_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forgespear_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forgedebuff_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    weaponsparks_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    weaponsparks_piercing_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    weaponsparks_thrusting_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    weaponsparks_bouncing_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/lavaarena	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    lavaarena	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/geyser	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    geyser	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/fissures	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    fissure	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    lava_fissure	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/reforged_deps	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    reforged_deps	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_reticules	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_reticule	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/forge_wortox_soul_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    forge_wortox_soul_in_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering prefab file: prefabs/fossilized_break_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	    fossilized_break_fx	
+[00:00:11]: Mod: workshop-1938752683 (ReForged)	  Registering default mod prefab	
+[00:00:12]: Could not preload undefined prefab (venus_stalk)
+[00:00:12]: Could not preload undefined prefab (vine)
+[00:00:12]: Could not preload undefined prefab (nectar_pod)
+[00:00:12]: Could not preload undefined prefab (pollen_debuff_fx)
+[00:00:12]: Could not preload undefined prefab (forgeelectricute_fx)
+[00:00:12]: Could not preload undefined prefab (vine)
+[00:00:12]: Could not preload undefined prefab (nectar_pod)
+[00:00:12]: 	LOAD BE	
+[00:00:14]: Could not preload undefined prefab (alterguardian_spiketrail_fx)
+[00:00:14]: 	LOAD BE: done	
+[00:00:14]: Begin Session: 3F3958D64A2C8FDB
+[00:00:14]: saving to server_temp/server_save	
+[00:00:14]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:14]: Loading 17 new character(s)	
+[00:00:15]: Total 17 character(s) loaded	
+[00:00:15]: Loading Nav Grid	
+[00:00:15]: World generated on build 464301 with save version: 5.065, using seed: 1621504487	
+[00:00:15]: Failed to retrieve exp history!	
+[00:00:15]: REGISTER CENTERPOINT	100026 - world	100163 - 	
+[00:00:15]: Reconstructing topology	
+[00:00:15]: 	...Sorting points	
+[00:00:15]: 	...Sorting edges	
+[00:00:15]: 	...Connecting nodes	
+[00:00:15]: 	...Validating connections	
+[00:00:15]: 	...Housekeeping	
+[00:00:15]: 	...Done!	
+[00:00:15]: Truncating to snapshot #2...
+[00:00:15]:  - session/3F3958D64A2C8FDB/A7H74JS5FU2I/0000000003
+[00:00:15]:    1 file(s) removed
+[00:00:15]: 1 uploads added to server. From server_temp
+[00:00:15]: Telling Client our new session identifier: 3F3958D64A2C8FDB
+[00:00:15]: Check for write access: TRUE
+[00:00:15]: Check for read access: TRUE
+[00:00:15]: Available disk space for save files: 49834 MB
+[00:00:15]: ModIndex: Load sequence finished successfully.	
+[00:00:15]: Reset() returning
+[00:00:15]: Sim paused
+[00:00:18]: Best lobby region is aws/Sing (ping 190)
+[00:00:18]: Registering master server in Sing lobby
+[00:00:20]: CURL ERROR: (dst.metrics.klei.com) Operation timed out after 5000 milliseconds with 0 out of 0 bytes received
+[00:00:28]: Registering master server in Sing lobby
+[00:00:45]: New incoming connection 171.113.223.239|2384 <9202297502574261028>
+[00:00:45]: Client connected from 171.113.223.239|2384 <9202297502574261028>
+[00:00:45]: ValidateGameSessionToken pgs-usc^KU_9oJuL_XI^DontStarveTogether^L6PyGXzzVy2GVIE33sHpD4GUfHZn8gSz9UMKpmRhj+c= for <9202297502574261028>
+[00:00:46]: Client authenticated: (KU_9oJuL_XI) 1923221547
+[00:00:46]: [Steam] Authenticated host '76561198396770855'
+[00:00:52]: Registering master server in Sing lobby
+[00:01:02]: 	K: 	total_exp	 V: 	{}	
+[00:01:02]: KU_9oJuL_XI	running text command:	updateuserexp	true	
+[00:01:02]: 	K: 	total_exp	 V: 	{}	
+[00:01:02]: Resuming user: session/3F3958D64A2C8FDB/A7H74JS5FU2I
+[00:01:13]: [Steam] SendUserDisconnect for '76561198396770855'
+[00:01:13]: Registering master server in Sing lobby
+[00:02:48]: RemoteCommandInput: "c_announce("服务器将于5秒后关闭") "
